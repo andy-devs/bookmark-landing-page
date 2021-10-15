@@ -107,20 +107,28 @@ body {
 	}
 	.header__icon._active span {
 		opacity: 0;
+		background: white;
+		transform: translateX(-50px);
+		-webkit-transform: translateX(-50px);
+		-moz-transform: translateX(-50px);
+		-ms-transform: translateX(-50px);
+		-o-transform: translateX(-50px);
 	}
-	.header__icon::before._active {
-		transform: rotate(45deg);
-		-webkit-transform: rotate(45deg);
-		-moz-transform: rotate(45deg);
-		-ms-transform: rotate(45deg);
-		-o-transform: rotate(45deg);
+	.header__icon._active::before {
+		background: white;
+		transform: rotate(45deg) translate(5px, 8px);
+		-webkit-transform: rotate(45deg) translate(5px, 8px);
+		-moz-transform: rotate(45deg) translate(5px, 8px);
+		-ms-transform: rotate(45deg) translate(5px, 8px);
+		-o-transform: rotate(45deg) translate(5px, 8px);
 	}
-	.header__icon::after._active {
-		transform: rotate(45deg);
-		-webkit-transform: rotate(45deg);
-		-moz-transform: rotate(45deg);
-		-ms-transform: rotate(45deg);
-		-o-transform: rotate(45deg);
+	.header__icon._active::after {
+		background: white;
+		transform: rotate(-45deg) translate(4px, -5px);
+		-webkit-transform: rotate(-45deg) translate(4px, -5px);
+		-moz-transform: rotate(-45deg) translate(4px, -5px);
+		-ms-transform: rotate(-45deg) translate(4px, -5px);
+		-o-transform: rotate(-45deg) translate(4px, -5px);
 	}
 	.header__icon span {
 		top: 50%;
@@ -138,11 +146,6 @@ body {
 		width: 100%;
 		height: 100%;
 		background-color: var(--dark-blue-opacity);
-		transition: left 0.3s ease 0s;
-		-webkit-transition: left 0.3s ease 0s;
-		-moz-transition: left 0.3s ease 0s;
-		-ms-transition: left 0.3s ease 0s;
-		-o-transition: left 0.3s ease 0s;
 	}
 	.header__nav._active {
 		display: flex;
