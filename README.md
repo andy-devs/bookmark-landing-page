@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshop_desktop.png)
+![WebSite](/images/screenshot_desktop.png)
 
 ### Links
 
