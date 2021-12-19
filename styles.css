@@ -665,7 +665,7 @@ body {
 		justify-content: center;
 	}
 	.first-screen__content {
-		max-width: 70%;
+		max-width: 1100px;
 		padding-left: 0.3rem;
 		margin: 0 auto;
 		display: flex;
@@ -863,6 +863,5 @@ body {
 @media (max-width: 1400px) {
 	.first-screen__image {
 		padding-right: 0;
-		left: 1.2rem;
 	}
 }
